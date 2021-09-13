@@ -11,4 +11,4 @@ function power(val, pow) {
 
 val = +prompt('Введите число: ');
 pow = +prompt('Введите степень: ');
-alert('Ответ: ' + power(val, pow));
+alert(`Ответ: ${power(val, pow)}`);
