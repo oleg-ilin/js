@@ -2,19 +2,19 @@
 // Обязательно использовать оператор return.
 
 
-function addition(param1, param2) {
+function add(param1, param2) {
 	return param1 + param2
 }
 
-function subtraction(param1, param2) {
+function sub(param1, param2) {
 	return param1 - param2
 }
 
-function multiplication(param1, param2) {
+function mul(param1, param2) {
 	return param1 * param2
 }
 
-function division(param1, param2) {
+function div(param1, param2) {
 	return param1 / param2
 }
 
@@ -24,15 +24,15 @@ param2 = +prompt('Введите второй параметр ');
 operation = +prompt('Выберите номер опреации, где 1 - сложение, 2 - вычетание, 3 - умножение, 4 - деление: ')
 switch (operation) {
 	case 1 :
-	alert('Ответ: ' + addition(param1, param2))
+	alert(`Ответ: ${add(param1, param2)}`)
 	break;
 case 2 :
-	alert('Ответ: ' + subtraction(param1, param2));
+	alert(`Ответ: ${sub(param1, param2)}`);
 	break;
 case 3 :
-	alert('Ответ: ' + multiplication(param1, param2));
+	alert(`Ответ: ${mul(param1, param2)}`);
 	break;
 case 4 :
-	alert('Ответ: ' + division(param1, param2));
+	alert(`Ответ: ${div(param1, param2)}`);
 	break;
 }
